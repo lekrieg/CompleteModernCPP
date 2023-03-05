@@ -1,16 +1,9 @@
-#include "BasicLanguageFacilities/BasicLanguageFacilities.h"
+#include "MemoryManagementPart1/DynamicMemoryAlocationPart1.h"
 
 int main()
 {
-	BLF::BasicLanguageFacilities basicFacilities;
-
-	basicFacilities.PrintBasicTypesInfo();
-	basicFacilities.GetUserInput();
-	basicFacilities.BasicPointerAndReferenceTest();
-	basicFacilities.PrintCircleInfo(5.44f);
-	basicFacilities.ForLoopPratice();
-	basicFacilities.Square(5);
-	basicFacilities.FunctionPointerPratice();
+	DynamicMemoryAlocation::NewExample();
+	DynamicMemoryAlocation::NewArrayExample();
 
 	return 0;
 }

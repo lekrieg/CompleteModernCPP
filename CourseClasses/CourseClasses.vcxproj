@@ -130,16 +130,12 @@
     <ClInclude Include="BasicLanguageFacilities\BasicLanguageFacilities.h" />
     <ClInclude Include="MemoryManagementPart1\DynamicMemoryAlocationPart1.h" />
     <ClInclude Include="MemoryManagementPart1\DynamicMemoryAlocationPart2.h" />
-    <ClInclude Include="MemoryManagementPart1\DynamicMemoryAlocationPart3.h" />
-    <ClInclude Include="MemoryManagementPart1\DynamicMemoryAlocationPart4.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="BasicLanguageFacilities\BasicLanguageFacilities.cpp" />
     <ClCompile Include="main.cpp" />
     <ClCompile Include="MemoryManagementPart1\DynamicMemoryAlocationPart1.cpp" />
     <ClCompile Include="MemoryManagementPart1\DynamicMemoryAlocationPart2.cpp" />
-    <ClCompile Include="MemoryManagementPart1\DynamicMemoryAlocationPart3.cpp" />
-    <ClCompile Include="MemoryManagementPart1\DynamicMemoryAlocationPart4.cpp" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">
